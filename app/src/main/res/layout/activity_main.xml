@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_bg"
+    android:background="@drawable/mg"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:gravity="center"
-        android:text="QuizApp!"
+        android:text="Quizzy Quest!"
         android:textColor="@android:color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Welcome"
-                android:textColor="#363A43"
+                android:textColor="@android:color/white"
                 android:textSize="30sp"
                 android:textStyle="bold"/>
 
@@ -63,7 +63,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Name"
-                    android:textColor="#363A43"
+                    android:textColor="@android:color/white"
                     android:textColorHint="#7A8089" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="#F0BCE2"
+                android:background="#A569BD"
                 android:text="Start"
                 android:textColor="@android:color/white"
                 android:textSize="18sp">
